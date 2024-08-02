@@ -72,6 +72,12 @@ This project is licensed under the MIT License. See the [LICENSE](LICENSE) file 
 
 The entire dataset, code base, and requirements are available on GitHub: [ADIMA GitHub Repository](https://github.com/bastiedotorg/adima).
 
+## Publications
+
+- B. Luettig, B. Schwaemmle and B. Annighoefer, "Using Neural Networks to Identify Wired Peripherals Connected to Integrated Modular Avionics Hardware," 2021 IEEE/AIAA 40th Digital Avionics Systems Conference (DASC), San Antonio, TX, USA, 2021, pp. 1-9, doi: [10.1109/DASC52595.2021.9594439](https://ieeexplore.ieee.org/document/9594439).
+- B. Luettig, J. Dallmann and B. Annighoefer, "ADIMA: Automatic Configuration by Peripheral Detection and Adaptive Distributed Task Execution for Integrated Modular Avionics Platforms," 2022 IEEE/AIAA 41st Digital Avionics Systems Conference (DASC), Portsmouth, VA, USA, 2022, pp. 1-10, doi: [10.1109/DASC55683.2022.9925885](https://ieeexplore.ieee.org/document/9925885).
+- B. Luettig and B. Annighoefer, "Using Autoencoders to Identify Aged, Faulty and Unknown Peripherals in the Adaptive IMA System," 2023 IEEE/AIAA 42nd Digital Avionics Systems Conference (DASC), Barcelona, Spain, 2023, pp. 1-9, doi: [10.1109/DASC58513.2023.10311122](https://ieeexplore.ieee.org/document/10311122).
+
 ---
 
 
