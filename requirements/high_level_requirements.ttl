@@ -1,0 +1,29 @@
+@prefix rml: <http://w3id.org/rml/> .
+@prefix rr: <http://www.w3.org/ns/r2rml#> .
+@prefix coua: <https://gitlab.dlr.de/ft-ssy-avs/ap/coua/schema#> .
+
+<#RequirementsMap> a rr:TriplesMap ;
+        rml:logicalSource [
+                rml:source "requirements.ttl" ;
+                rml:referenceFormulation rml:CSV ;
+        ] ;
+        rml:subjectMap [
+                rr:template "https://github.com/ils-stuttgart/adima#requirements/{ID}" ;
+                rml:class coua:HighLevelRequirement
+        ] ;
+        rml:predicateObjectMap [
+                rr:predicate coua:id ;
+                rr:objectMap [ rml:reference "ID" ; ]
+        ] ;
+        rml:predicateObjectMap [
+                rr:predicate coua:description ;
+                rr:objectMap [ rml:reference "Description" ; ]
+        ] ;
+        rml:predicateObjectMap [
+                rr:predicate coua:rationale ;
+                rr:objectMap [ rml:reference "Rationale" ; ]
+        ] ;
+        rml:predicateObjectMap [
+                rml:predicate coua:traces ;
+                rr:objectMap [ rr:template "https://github.com/ils-stuttgart/adima#requirements/{Trace}" ; ]
+        ] .
