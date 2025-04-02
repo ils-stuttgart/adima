@@ -12,7 +12,7 @@
                 rml:class coua:LowLevelRequirement
         ] ;
         rml:predicateObjectMap [
-                rr:predicate coua:id ;
+                rr:predicate coua:requirmeentId ;
                 rr:objectMap [ rml:reference "ID" ; ]
         ] ;
         rml:predicateObjectMap [
