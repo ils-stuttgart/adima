@@ -1,4 +1,12 @@
-checks = ["do178c"]
+[project]
+name = "adima"
+
+[checks]
+suites = ["do178c"]
+
+[do178c]
+software = "https://github/com/ils-stuttgart/adima"
+software_level = "C"
 
 [artifacts.SafetyRequirements.morph]
 file_path = "requirements/safety_requirements.csv"
