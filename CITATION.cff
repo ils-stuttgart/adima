@@ -1,0 +1,29 @@
+# This CITATION.cff file was generated with cffinit.
+# Visit https://bit.ly/cffinit to generate yours today!
+
+cff-version: 1.2.0
+title: ADIMA LED Recognition
+message: >-
+  If you use this software, please cite it using the
+  metadata from this file.
+type: software
+authors:
+  - given-names: Bastian
+    family-names: Luettig
+    email: bastian.luettig@ils.uni-stuttgart.de
+    affiliation: ILS
+    orcid: 'https://orcid.org/0000-0002-9358-1611'
+abstract: >-
+  This repository contains training and testing data for LED
+  color recognition and age detection. You can use a
+  classifier to find the LED color and an autoencoder to
+  detect if your input data matches the training data. This
+  has been demonstrated on actual Integrated Modular
+  Avionics hardware.
+keywords:
+  - avionics
+  - integrated modular avionics
+  - autoencoder
+  - automatic detection
+  - recognition
+license: MIT
