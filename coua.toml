@@ -1,0 +1,25 @@
+[project]
+name = "adima"
+
+[checks]
+suites = ["do178c"]
+
+[do178c]
+software = "https://github/com/ils-stuttgart/adima"
+software_level = "C"
+
+[artifacts.SafetyRequirements.morph]
+file_path = "requirements/safety_requirements.csv"
+mappings = "requirements/requirements.ttl"
+
+[artifacts.DataRequirements.morph]
+file_path = "requirements/data_requirements.csv"
+mappings = "requirements/requirements.ttl"
+
+[artifacts.HighLevelRequirements.morph]
+file_path = "requirements/high_level_requirements.csv"
+mappings = "requirements/high_level_requirements.ttl"
+
+[artifacts.ImplementationRequirements.morph]
+file_path = "requirements/implementation_requirements.csv"
+mappings = "requirements/implementation_requirements.ttl"
